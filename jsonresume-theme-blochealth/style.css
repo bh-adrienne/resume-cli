@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
 @charset "utf-8";
 @-webkit-viewport   { width: device-width; }
 @-moz-viewport      { width: device-width; }
@@ -9,20 +8,13 @@
 body{
   color: #363636;
   background: #fff;
-      font-family: 'Museo Sans 700';
-    src: url('MuseoSans-700.eot');
-    src: url('MuseoSans-700.eot?#iefix') format('embedded-opentype'),
-        url('MuseoSans-700.woff2') format('woff2'),
-        url('MuseoSans-700.woff') format('woff'),
-        url('MuseoSans-700.ttf') format('truetype'),
-        url('MuseoSans-700.svg#MuseoSans-700') format('svg');
-    font-weight: 700;
-    font-style: normal;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
 }
 blockquote {
   font-size: 1em;
 }
-a{color:#9acb38 !important;}
+a{color:#0292cd !important;}
 
 .container{
   margin-top: 80px;
@@ -130,13 +122,15 @@ a{color:#9acb38 !important;}
 #education .description{
   width: 83%;
   display: inline-block;
-  background: #000;
+  background: #fff;
   margin-bottom: 10px;
   position: relative;
   padding: 10px;
-  border-bottom: 1px solid #000;
-  border-right: 1px solid #000;
-  color:#fff;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+
 }
 #awards .description:after,
 #education .description:after {
@@ -174,10 +168,11 @@ a{color:#9acb38 !important;}
   width: 95%;
   padding: 10px;
   margin-bottom: 10px;
-  background: #000;
+  background: #fff;
   border-bottom: 1px solid #ccc;
   border-right: 1px solid #ccc;
-  color:#fff;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
   margin-bottom:25px;
 }
 .job .where{
@@ -225,14 +220,13 @@ a{color:#9acb38 !important;}
   float: left;
 }
 .contact-item .icon{
-  padding: 10px;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  color: #fff;
-  background: #000;
-}
-.contact-item:last-child .icon{
-  border-bottom: none;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-bottom: 10px;
+
 }
 .contact-item .title{
   width: 80%;
@@ -286,10 +280,4 @@ a{color:#9acb38 !important;}
   margin: 10px 0;
   padding-bottom: 10px;
   border-bottom: 1px solid #eee;
-}
-
-.panel-default>.panel-heading {
-    color: #9acb38 !important;
-    background-color: #000 !important;
-    border-color: #ddd;
 }
