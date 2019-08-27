@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      "jsonresume-theme-blochealth@0.0.1",
+      "/Users/adrienne/Code/blochealth/resume-cli"
+    ]
+  ],
+  "_from": "jsonresume-theme-blochealth@0.1.19",
+  "_id": "jsonresume-theme-blochealth@0.1.19",
+  "_inBundle": false,
+  "_integrity": "sha1-CIuwokGm12tzcqzV7r44xynRedc=",
+  "_location": "/jsonresume-theme-blochealth",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "jsonresume-theme-blochealth@0.1.19",
+    "name": "jsonresume-theme-blochealth",
+    "escapedName": "jsonresume-theme-blochealth",
+    "rawSpec": "0.1.19",
+    "saveSpec": null,
+    "fetchSpec": "0.1.19"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jsonresume-theme-blochealth/-/jsonresume-theme-blochealth-0.1.19.tgz",
+  "_spec": "0.1.19",
+  "_where": "/Users/adrienne/Code/blochealth/resume-cli",
+  "author": {
+    "name": "M. Adam Kendall"
+  },
+  "bugs": {
+    "url": "https://github.com/linuxbozo/jsonresume-theme-blochealth/issues"
+  },
+  "dependencies": {
+    "gravatar": "^1.0.6",
+    "lodash": "^2.4.1",
+    "mustache": "^2.2.1"
+  },
+  "description": "A JSON Resume theme built with bootstrap",
+  "homepage": "https://github.com/linuxbozo/jsonresume-theme-blochealth",
+  "keywords": [
+    "json",
+    "jsonresume",
+    "theme"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "jsonresume-theme-blochealth",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linuxbozo/jsonresume-theme-blochealth.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.19"
+}
